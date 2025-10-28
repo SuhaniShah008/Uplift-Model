@@ -1,8 +1,8 @@
-# 🎯 Uplift Model for Targeted Marketing
+# Uplift Model for Targeted Marketing
 
 This repository implements an Uplift Modeling approach to identify customers who are positively influenced by marketing campaigns. The goal is to target only those customers whose behavior is changed by the campaign, thereby maximizing marketing ROI and avoiding wasted spend.
 
-## 🔍 What is Uplift Modeling?
+## What is Uplift Modeling?
 
 Uplift modeling (also known as incremental or true lift modeling) helps distinguish between:
 
@@ -13,7 +13,7 @@ Uplift modeling (also known as incremental or true lift modeling) helps distingu
 
 This enables smarter targeting by focusing only on Persuadables.
 
-## 🧠 Approach
+## Approach
 
 The uplift model is built using a two-model method:
 
@@ -23,7 +23,7 @@ The uplift model is built using a two-model method:
 
 Alternatively, advanced learners such as Uplift Random Forests or X-Learners can be used (see `scikit-uplift`).
 
-## 🚀 Getting Started
+## Getting Started
 
 1. Clone the repository:
 
@@ -50,7 +50,7 @@ Alternatively, advanced learners such as Uplift Random Forests or X-Learners can
     python evaluate_uplift.py
     ```
 
-## 📈 Evaluation
+## Evaluation
 
 Uplift performance is measured using:
 
@@ -60,7 +60,7 @@ Uplift performance is measured using:
 
 These metrics assess how effectively the model identifies Persuadables.
 
-## 📦 Dependencies
+## Dependencies
 
 - Python 3.7+
 - `pandas`
