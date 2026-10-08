@@ -23,32 +23,37 @@ The uplift model is built using a two-model method:
 
 Alternatively, advanced learners such as Uplift Random Forests or X-Learners can be used (see `scikit-uplift`).
 
+## Repository Contents
+
+- `Uplift_Model.ipynb`: the Jupyter notebook containing the full analysis and model.
+- `README.md`: this file.
+
 ## Getting Started
 
 1. Clone the repository:
 
-    ```bash
-    git clone https://github.com/your-username/uplift-model.git
-    cd uplift-model
-    ```
+```bash
+    git clone https://github.com/SuhaniShah008/Uplift-Model.git
+    cd Uplift-Model
+```
 
 2. Install the dependencies:
 
-    ```bash
-    pip install -r requirements.txt
-    ```
+```bash
+    pip install pandas numpy scikit-learn matplotlib seaborn jupyter
+```
 
-3. Train the uplift models:
+    Optionally, for advanced uplift methods:
 
-    ```bash
-    python train_models.py
-    ```
+```bash
+    pip install scikit-uplift
+```
 
-4. Evaluate the uplift:
+3. Open and run the notebook:
 
-    ```bash
-    python evaluate_uplift.py
-    ```
+```bash
+    jupyter notebook Uplift_Model.ipynb
+```
 
 ## Evaluation
 
@@ -68,9 +73,5 @@ These metrics assess how effectively the model identifies Persuadables.
 - `scikit-learn`
 - `matplotlib`
 - `seaborn`
+- `jupyter`
 - `scikit-uplift` (optional for advanced methods)
-
-Install them with:
-
-```bash
-pip install -r requirements.txt
